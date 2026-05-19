@@ -30,5 +30,8 @@
     <ClCompile Include="noPewarisan.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Bank Gibran Jaya.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
