@@ -8,6 +8,11 @@ protected:
     int balance;
 
 public:
+
+    BankAccount(int b) {
+        balance = b;
+    }
+
     virtual void cutAdmin() = 0;
 };
 
