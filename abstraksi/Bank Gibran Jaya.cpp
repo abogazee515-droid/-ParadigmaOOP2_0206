@@ -25,6 +25,18 @@ public:
     }
 };
 
+class ConventionalAccount : public BankAccount {
+public:
+    ConventionalAccount(int b) : BankAccount(b) {}
+
+    void cutAdmin() {
+        balance -= 15000;
+
+        cout << "Balance = "
+            << balance << endl;
+    }
+};
+
 int main() {
 
     ShariaAccount sharia(5000000);
