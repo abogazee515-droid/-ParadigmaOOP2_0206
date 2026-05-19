@@ -40,7 +40,10 @@ public:
 int main() {
 
     ShariaAccount sharia(5000000);
+    ConventionalAccount conv(5000000);
+
     sharia.cutAdmin();
+    conv.cutAdmin();
 
     return 0;
 }
