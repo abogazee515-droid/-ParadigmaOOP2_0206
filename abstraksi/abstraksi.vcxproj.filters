@@ -21,5 +21,8 @@
     <ClCompile Include="Encapsulayion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Polymorphism.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
