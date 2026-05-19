@@ -27,5 +27,8 @@ public:
 
 int main() {
 
+    ShariaAccount sharia(5000000);
+    sharia.cutAdmin();
+
     return 0;
 }
