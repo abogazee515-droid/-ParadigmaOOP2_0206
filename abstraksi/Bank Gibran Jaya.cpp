@@ -37,6 +37,24 @@ public:
     }
 };
 
+class PremiumAccount : public BankAccount {
+public:
+    PremiumAccount(int b) : BankAccount(b) {}
+
+    void cutAdmin() {
+
+        if (balance > 10000000) {
+            cout << "Free admin fee" << endl;
+        }
+        else {
+            balance -= 50000;
+
+            cout << "Balance = "
+                << balance << endl;
+        }
+    }
+};
+
 int main() {
 
     ShariaAccount sharia(5000000);
@@ -44,6 +62,8 @@ int main() {
 
     sharia.cutAdmin();
     conv.cutAdmin();
+
+
 
     return 0;
 }
