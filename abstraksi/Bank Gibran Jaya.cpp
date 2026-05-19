@@ -21,8 +21,11 @@ public:
     ShariaAccount(int b) : BankAccount(b) {}
 
     void cutAdmin() {
-        cout << "No admin fee" << endl;
+        cout << "Sharia Account" << endl;
+        cout << "Balance = "
+            << balance << endl;
     }
+
 };
 
 class ConventionalAccount : public BankAccount {
