@@ -57,13 +57,20 @@ public:
 
 int main() {
 
+    BankAccount* acc;
+
     ShariaAccount sharia(5000000);
     ConventionalAccount conv(5000000);
     PremiumAccount premium(9000000);
 
-    sharia.cutAdmin();
-    conv.cutAdmin();
-    premium.cutAdmin();
+    acc = &sharia;
+    acc->cutAdmin();
+
+    acc = &conv;
+    acc->cutAdmin();
+
+    acc = &premium;
+    acc->cutAdmin();
 
 
 
