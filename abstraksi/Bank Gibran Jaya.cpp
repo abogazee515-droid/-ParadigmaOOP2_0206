@@ -59,9 +59,12 @@ int main() {
 
     ShariaAccount sharia(5000000);
     ConventionalAccount conv(5000000);
+    PremiumAccount premium(9000000);
 
     sharia.cutAdmin();
     conv.cutAdmin();
+    premium.cutAdmin();
+
 
 
 
