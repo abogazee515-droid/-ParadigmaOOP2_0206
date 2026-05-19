@@ -1,14 +1,11 @@
-
 #include <iostream>
 using namespace std;
 
 class BankAccount {
-
 protected:
     int balance;
 
 public:
-
     BankAccount(int b) {
         balance = b;
     }
@@ -25,7 +22,6 @@ public:
         cout << "Balance = "
             << balance << endl;
     }
-
 };
 
 class ConventionalAccount : public BankAccount {
@@ -33,6 +29,8 @@ public:
     ConventionalAccount(int b) : BankAccount(b) {}
 
     void cutAdmin() {
+        cout << "Conventional Account" << endl;
+
         balance -= 15000;
 
         cout << "Balance = "
@@ -45,6 +43,8 @@ public:
     PremiumAccount(int b) : BankAccount(b) {}
 
     void cutAdmin() {
+
+        cout << "Premium Account" << endl;
 
         if (balance > 10000000) {
             cout << "Free admin fee" << endl;
@@ -74,9 +74,6 @@ int main() {
 
     acc = &premium;
     acc->cutAdmin();
-
-
-
 
     return 0;
 }
