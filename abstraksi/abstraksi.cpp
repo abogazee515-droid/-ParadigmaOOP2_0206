@@ -19,3 +19,9 @@ public:
     }
 
 };
+
+int main() {
+
+    AbstraksiKlas ak;
+    
+}
