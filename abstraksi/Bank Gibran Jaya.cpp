@@ -3,6 +3,10 @@
 using namespace std;
 
 class BankAccount {
+
+protected:
+    int balance;
+
 public:
     virtual void cutAdmin() = 0;
 };
