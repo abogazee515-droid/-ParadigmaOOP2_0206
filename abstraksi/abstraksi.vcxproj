@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="abstraksi.cpp" />
     <ClCompile Include="Encapsulayion.cpp" />
+    <ClCompile Include="No Overriding.cpp" />
     <ClCompile Include="Polymorphism.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

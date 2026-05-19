@@ -24,5 +24,8 @@
     <ClCompile Include="Polymorphism.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="No Overriding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
